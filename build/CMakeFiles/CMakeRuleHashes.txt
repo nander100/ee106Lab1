@@ -1,13 +1,18 @@
 # Hashes of file build rules.
 8e741ee0f7d991ba6d1ee9d64043d170 /root/catkin_ws/devel/include/ee106s25/EE106lab_custom.h
+eda6c08f53ddca6b487da2cd7ff0b0e6 /root/catkin_ws/devel/include/ee106s25/EE106lab_custom_new.h
 9f86008f5c93a7f9439b58b3918706ed /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom.py
+3e888f1b8d91842e21a3049674709e65 /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom_new.py
 b1287e4dcb5891ffdf95dd95ad81d448 /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/__init__.py
 2ed031bc13d60f28cdc1f77cb9c20142 /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom.lisp
+fbb81fb27bfdd8353aab1539eb385ad3 /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom_new.lisp
 9dd12c4455b5bb4b1284a02de948b352 /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom.js
+f877e91325bcac3c2959e25da04db40b /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom_new.js
 38b40d0877561a3ab11ad4ea91b65db9 /root/catkin_ws/devel/share/roseus/ros/ee106s25/manifest.l
 42d6c673aee99c2a56f0f1411b9b5b5a /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom.l
+a4d550837d4bb5dc3074dd9f6b331b36 /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom_new.l
 b401adeb64b0c093cc4ccb313c792ddc CMakeFiles/clean_test_results
-10bea895c96ef9c3125ae5283530749b ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom
+f079a6a38b4ab1a2a715720cf56c66ed ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new
 884b7aa7a8dad859ce932ce173ef1059 ee106s25/CMakeFiles/ee106s25_generate_messages_cpp
 884b7aa7a8dad859ce932ce173ef1059 ee106s25/CMakeFiles/ee106s25_generate_messages_eus
 884b7aa7a8dad859ce932ce173ef1059 ee106s25/CMakeFiles/ee106s25_generate_messages_lisp

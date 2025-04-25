@@ -363,21 +363,6 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/rule:
-	cd /root/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/rule
-.PHONY : ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/rule
-
-# Convenience name for target.
-_ee106s25_generate_messages_check_deps_EE106lab_custom: ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/rule
-
-.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom
-
-# fast build rule for target.
-_ee106s25_generate_messages_check_deps_EE106lab_custom/fast:
-	cd /root/catkin_ws/build && $(MAKE) -f ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/build.make ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/build
-.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom/fast
-
-# Convenience name for target.
 ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs.dir/rule:
 	cd /root/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs.dir/rule
 .PHONY : ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs.dir/rule
@@ -481,6 +466,21 @@ std_msgs_generate_messages_cpp: ee106s25/CMakeFiles/std_msgs_generate_messages_c
 std_msgs_generate_messages_cpp/fast:
 	cd /root/catkin_ws/build && $(MAKE) -f ee106s25/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ee106s25/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/rule:
+	cd /root/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/rule
+.PHONY : ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/rule
+
+# Convenience name for target.
+_ee106s25_generate_messages_check_deps_EE106lab_custom_new: ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/rule
+
+.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom_new
+
+# fast build rule for target.
+_ee106s25_generate_messages_check_deps_EE106lab_custom_new/fast:
+	cd /root/catkin_ws/build && $(MAKE) -f ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/build.make ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/build
+.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom_new/fast
 
 # Convenience name for target.
 ee106s25/CMakeFiles/ee106s25_genlisp.dir/rule:
@@ -595,7 +595,6 @@ help:
 	@echo "... ee106s25_gencpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... _ee106s25_generate_messages_check_deps_EE106lab_custom"
 	@echo "... ee106s25_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... ee106s25_generate_messages"
@@ -605,6 +604,7 @@ help:
 	@echo "... ee106s25_generate_messages_eus"
 	@echo "... edit_cache"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... _ee106s25_generate_messages_check_deps_EE106lab_custom_new"
 	@echo "... ee106s25_genlisp"
 	@echo "... ee106s25_gennodejs"
 	@echo "... rosgraph_msgs_generate_messages_lisp"

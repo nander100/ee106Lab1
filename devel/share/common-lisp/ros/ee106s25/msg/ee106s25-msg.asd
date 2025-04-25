@@ -7,4 +7,6 @@
   :components ((:file "_package")
     (:file "EE106lab_custom" :depends-on ("_package_EE106lab_custom"))
     (:file "_package_EE106lab_custom" :depends-on ("_package"))
+    (:file "EE106lab_custom_new" :depends-on ("_package_EE106lab_custom_new"))
+    (:file "_package_EE106lab_custom_new" :depends-on ("_package"))
   ))

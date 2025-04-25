@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg"
+messages_str = "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg"
 services_str = ""
 pkg_name = "ee106s25"
 dependencies_str = "std_msgs"

@@ -53,17 +53,17 @@ CMAKE_BINARY_DIR = /root/catkin_ws/build
 # Include the progress variables for this target.
 include ee106s25/CMakeFiles/ee106s25_generate_messages_lisp.dir/progress.make
 
-ee106s25/CMakeFiles/ee106s25_generate_messages_lisp: /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom.lisp
+ee106s25/CMakeFiles/ee106s25_generate_messages_lisp: /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom_new.lisp
 
 
-/root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom.lisp: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg
-/root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ee106s25/EE106lab_custom.msg"
-	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg
+/root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom_new.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom_new.lisp: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg
+/root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom_new.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ee106s25/EE106lab_custom_new.msg"
+	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg
 
 ee106s25_generate_messages_lisp: ee106s25/CMakeFiles/ee106s25_generate_messages_lisp
-ee106s25_generate_messages_lisp: /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom.lisp
+ee106s25_generate_messages_lisp: /root/catkin_ws/devel/share/common-lisp/ros/ee106s25/msg/EE106lab_custom_new.lisp
 ee106s25_generate_messages_lisp: ee106s25/CMakeFiles/ee106s25_generate_messages_lisp.dir/build.make
 
 .PHONY : ee106s25_generate_messages_lisp

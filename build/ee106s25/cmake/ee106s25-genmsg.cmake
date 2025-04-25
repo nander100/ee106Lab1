@@ -17,9 +17,9 @@ add_custom_target(ee106s25_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg" NAME_WE)
+get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg" NAME_WE)
 add_custom_target(_ee106s25_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ee106s25" "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ee106s25" "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg" "std_msgs/Header"
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_ee106s25_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(ee106s25
-  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg"
+  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ee106s25
@@ -49,7 +49,7 @@ add_custom_target(ee106s25_generate_messages_cpp
 add_dependencies(ee106s25_generate_messages ee106s25_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg" NAME_WE)
+get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg" NAME_WE)
 add_dependencies(ee106s25_generate_messages_cpp _ee106s25_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ee106s25_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(ee106s25
-  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg"
+  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ee106s25
@@ -82,7 +82,7 @@ add_custom_target(ee106s25_generate_messages_eus
 add_dependencies(ee106s25_generate_messages ee106s25_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg" NAME_WE)
+get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg" NAME_WE)
 add_dependencies(ee106s25_generate_messages_eus _ee106s25_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ee106s25_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(ee106s25
-  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg"
+  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ee106s25
@@ -115,7 +115,7 @@ add_custom_target(ee106s25_generate_messages_lisp
 add_dependencies(ee106s25_generate_messages ee106s25_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg" NAME_WE)
+get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg" NAME_WE)
 add_dependencies(ee106s25_generate_messages_lisp _ee106s25_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ee106s25_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(ee106s25
-  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg"
+  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ee106s25
@@ -148,7 +148,7 @@ add_custom_target(ee106s25_generate_messages_nodejs
 add_dependencies(ee106s25_generate_messages ee106s25_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg" NAME_WE)
+get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg" NAME_WE)
 add_dependencies(ee106s25_generate_messages_nodejs _ee106s25_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ee106s25_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(ee106s25
-  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg"
+  "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ee106s25
@@ -181,7 +181,7 @@ add_custom_target(ee106s25_generate_messages_py
 add_dependencies(ee106s25_generate_messages ee106s25_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg" NAME_WE)
+get_filename_component(_filename "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg" NAME_WE)
 add_dependencies(ee106s25_generate_messages_py _ee106s25_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

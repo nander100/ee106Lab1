@@ -53,17 +53,17 @@ CMAKE_BINARY_DIR = /root/catkin_ws/build
 # Include the progress variables for this target.
 include ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs.dir/progress.make
 
-ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs: /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom.js
+ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs: /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom_new.js
 
 
-/root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom.js: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg
-/root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ee106s25/EE106lab_custom.msg"
-	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg
+/root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom_new.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom_new.js: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg
+/root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom_new.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ee106s25/EE106lab_custom_new.msg"
+	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg
 
 ee106s25_generate_messages_nodejs: ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs
-ee106s25_generate_messages_nodejs: /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom.js
+ee106s25_generate_messages_nodejs: /root/catkin_ws/devel/share/gennodejs/ros/ee106s25/msg/EE106lab_custom_new.js
 ee106s25_generate_messages_nodejs: ee106s25/CMakeFiles/ee106s25_generate_messages_nodejs.dir/build.make
 
 .PHONY : ee106s25_generate_messages_nodejs

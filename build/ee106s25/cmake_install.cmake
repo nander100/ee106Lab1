@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ee106s25/msg" TYPE FILE FILES "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ee106s25/msg" TYPE FILE FILES "/root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -53,23 +53,23 @@ CMAKE_BINARY_DIR = /root/catkin_ws/build
 # Include the progress variables for this target.
 include ee106s25/CMakeFiles/ee106s25_generate_messages_py.dir/progress.make
 
-ee106s25/CMakeFiles/ee106s25_generate_messages_py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom.py
+ee106s25/CMakeFiles/ee106s25_generate_messages_py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom_new.py
 ee106s25/CMakeFiles/ee106s25_generate_messages_py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/__init__.py
 
 
-/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom.py: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg
-/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ee106s25/EE106lab_custom"
-	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg
+/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom_new.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom_new.py: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg
+/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom_new.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ee106s25/EE106lab_custom_new"
+	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg
 
 /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/__init__.py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom.py
+/root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/__init__.py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom_new.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for ee106s25"
 	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg --initpy
 
 ee106s25_generate_messages_py: ee106s25/CMakeFiles/ee106s25_generate_messages_py
-ee106s25_generate_messages_py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom.py
+ee106s25_generate_messages_py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/_EE106lab_custom_new.py
 ee106s25_generate_messages_py: /root/catkin_ws/devel/lib/python3/dist-packages/ee106s25/msg/__init__.py
 ee106s25_generate_messages_py: ee106s25/CMakeFiles/ee106s25_generate_messages_py.dir/build.make
 

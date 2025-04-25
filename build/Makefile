@@ -454,19 +454,6 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named _ee106s25_generate_messages_check_deps_EE106lab_custom
-
-# Build rule for target.
-_ee106s25_generate_messages_check_deps_EE106lab_custom: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _ee106s25_generate_messages_check_deps_EE106lab_custom
-.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom
-
-# fast build rule for target.
-_ee106s25_generate_messages_check_deps_EE106lab_custom/fast:
-	$(MAKE) -f ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/build.make ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom.dir/build
-.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom/fast
-
-#=============================================================================
 # Target rules for targets named ee106s25_generate_messages_nodejs
 
 # Build rule for target.
@@ -556,6 +543,19 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 std_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f ee106s25/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ee106s25/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _ee106s25_generate_messages_check_deps_EE106lab_custom_new
+
+# Build rule for target.
+_ee106s25_generate_messages_check_deps_EE106lab_custom_new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ee106s25_generate_messages_check_deps_EE106lab_custom_new
+.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom_new
+
+# fast build rule for target.
+_ee106s25_generate_messages_check_deps_EE106lab_custom_new/fast:
+	$(MAKE) -f ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/build.make ee106s25/CMakeFiles/_ee106s25_generate_messages_check_deps_EE106lab_custom_new.dir/build
+.PHONY : _ee106s25_generate_messages_check_deps_EE106lab_custom_new/fast
 
 #=============================================================================
 # Target rules for targets named ee106s25_genlisp
@@ -670,7 +670,6 @@ help:
 	@echo "... ee106s25_gencpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... _ee106s25_generate_messages_check_deps_EE106lab_custom"
 	@echo "... ee106s25_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... ee106s25_generate_messages"
@@ -678,6 +677,7 @@ help:
 	@echo "... ee106s25_generate_messages_lisp"
 	@echo "... ee106s25_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... _ee106s25_generate_messages_check_deps_EE106lab_custom_new"
 	@echo "... ee106s25_genlisp"
 	@echo "... ee106s25_gennodejs"
 	@echo "... rosgraph_msgs_generate_messages_lisp"

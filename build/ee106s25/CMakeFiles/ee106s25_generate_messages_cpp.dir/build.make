@@ -53,18 +53,18 @@ CMAKE_BINARY_DIR = /root/catkin_ws/build
 # Include the progress variables for this target.
 include ee106s25/CMakeFiles/ee106s25_generate_messages_cpp.dir/progress.make
 
-ee106s25/CMakeFiles/ee106s25_generate_messages_cpp: /root/catkin_ws/devel/include/ee106s25/EE106lab_custom.h
+ee106s25/CMakeFiles/ee106s25_generate_messages_cpp: /root/catkin_ws/devel/include/ee106s25/EE106lab_custom_new.h
 
 
-/root/catkin_ws/devel/include/ee106s25/EE106lab_custom.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/root/catkin_ws/devel/include/ee106s25/EE106lab_custom.h: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg
-/root/catkin_ws/devel/include/ee106s25/EE106lab_custom.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/root/catkin_ws/devel/include/ee106s25/EE106lab_custom.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ee106s25/EE106lab_custom.msg"
-	cd /root/catkin_ws/src/ee106s25 && /root/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/include/ee106s25 -e /opt/ros/noetic/share/gencpp/cmake/..
+/root/catkin_ws/devel/include/ee106s25/EE106lab_custom_new.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/root/catkin_ws/devel/include/ee106s25/EE106lab_custom_new.h: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg
+/root/catkin_ws/devel/include/ee106s25/EE106lab_custom_new.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/root/catkin_ws/devel/include/ee106s25/EE106lab_custom_new.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ee106s25/EE106lab_custom_new.msg"
+	cd /root/catkin_ws/src/ee106s25 && /root/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/include/ee106s25 -e /opt/ros/noetic/share/gencpp/cmake/..
 
 ee106s25_generate_messages_cpp: ee106s25/CMakeFiles/ee106s25_generate_messages_cpp
-ee106s25_generate_messages_cpp: /root/catkin_ws/devel/include/ee106s25/EE106lab_custom.h
+ee106s25_generate_messages_cpp: /root/catkin_ws/devel/include/ee106s25/EE106lab_custom_new.h
 ee106s25_generate_messages_cpp: ee106s25/CMakeFiles/ee106s25_generate_messages_cpp.dir/build.make
 
 .PHONY : ee106s25_generate_messages_cpp

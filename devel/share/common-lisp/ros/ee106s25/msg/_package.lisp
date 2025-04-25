@@ -3,5 +3,7 @@
   (:export
    "<EE106LAB_CUSTOM>"
    "EE106LAB_CUSTOM"
+   "<EE106LAB_CUSTOM_NEW>"
+   "EE106LAB_CUSTOM_NEW"
   ))
 

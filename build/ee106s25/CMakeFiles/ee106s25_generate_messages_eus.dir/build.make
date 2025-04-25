@@ -53,22 +53,22 @@ CMAKE_BINARY_DIR = /root/catkin_ws/build
 # Include the progress variables for this target.
 include ee106s25/CMakeFiles/ee106s25_generate_messages_eus.dir/progress.make
 
-ee106s25/CMakeFiles/ee106s25_generate_messages_eus: /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom.l
+ee106s25/CMakeFiles/ee106s25_generate_messages_eus: /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom_new.l
 ee106s25/CMakeFiles/ee106s25_generate_messages_eus: /root/catkin_ws/devel/share/roseus/ros/ee106s25/manifest.l
 
 
-/root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom.l: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg
-/root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ee106s25/EE106lab_custom.msg"
-	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg
+/root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom_new.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom_new.l: /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg
+/root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom_new.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ee106s25/EE106lab_custom_new.msg"
+	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /root/catkin_ws/src/ee106s25/msg/EE106lab_custom_new.msg -Iee106s25:/root/catkin_ws/src/ee106s25/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ee106s25 -o /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg
 
 /root/catkin_ws/devel/share/roseus/ros/ee106s25/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for ee106s25"
 	cd /root/catkin_ws/build/ee106s25 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /root/catkin_ws/devel/share/roseus/ros/ee106s25 ee106s25 std_msgs
 
 ee106s25_generate_messages_eus: ee106s25/CMakeFiles/ee106s25_generate_messages_eus
-ee106s25_generate_messages_eus: /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom.l
+ee106s25_generate_messages_eus: /root/catkin_ws/devel/share/roseus/ros/ee106s25/msg/EE106lab_custom_new.l
 ee106s25_generate_messages_eus: /root/catkin_ws/devel/share/roseus/ros/ee106s25/manifest.l
 ee106s25_generate_messages_eus: ee106s25/CMakeFiles/ee106s25_generate_messages_eus.dir/build.make
 
